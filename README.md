@@ -51,7 +51,15 @@ E94076186 許中瑋
 一開始所有的id都擁有自己的label,經由 model 判斷為 match 的 id 則會被合併為相同的 label，最後再依照 label 產生 submission.csv
 
 ## 成績
+
+![](https://i.imgur.com/42yDD9J.png)
+
+我們測試了 kaggle 上別人的 code 有得到 0.834 的成績
+
 ![](https://i.imgur.com/dOeL5td.png)
+
+但是我們自己的 code 目前還是在 0.63x 徘徊，沒有得到一個太好的成績
+
 
 ## 執行備註
 在 kaggle 上 train 需要將 Foursquare - Location Matching 的資料加到 notebook 中
